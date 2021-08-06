@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+body {
+    background-color: #FAFAFA;
+}
+
+nav {
+    padding: 10px;
+    border: 1px solid rgba(148, 148, 148, 0.507);
+    height: 17px;
+}
+
+nav > h1 {
+    font-size: 1.1em;
+    display: inline-block;
+    margin-left: 30%;
+    
+}
+
+nav > #search-bar {
+    display: inline-block;
+    margin-left: 10%;
+}
