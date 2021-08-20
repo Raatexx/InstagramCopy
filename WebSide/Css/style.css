@@ -23,7 +23,7 @@ nav > h1 {
     font-size: 1.6em;
     display: inline-block;
     margin-left: 26%;
-    
+    cursor: pointer;
 }
 
 nav > #search-bar {
@@ -53,6 +53,12 @@ nav > #search-bar > #search {
 }
 
 #icons > i {
-    padding: 0px 20px 0px 0px;
-    font-size: 1.2em;
+    padding: 0px 15px 0px 0px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+#icons > img {
+    transform: translateY(18%);
+    cursor: pointer;
 }
