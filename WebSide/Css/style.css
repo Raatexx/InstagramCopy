@@ -10,6 +10,7 @@ body {
 }
 
 nav {
+    position: relative;
     padding: 10px;
     border: 1px solid rgba(148, 148, 148, 0.507);
     height: 17px;
