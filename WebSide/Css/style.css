@@ -11,19 +11,48 @@ body {
 
 nav {
     position: relative;
-    padding: 10px;
-    border: 1px solid rgba(148, 148, 148, 0.507);
-    height: 17px;
+    padding: 0px 5px 10px 10px;
+    border: 1px solid rgba(148, 148, 148, 0.281);
+    height: 29px;
 }
 
 nav > h1 {
-    font-size: 1.1em;
+    font-family: 'Cookie', cursive;
+    padding: 5px 0px 0px 0px;
+    font-weight: normal;
+    font-size: 1.6em;
     display: inline-block;
-    margin-left: 30%;
+    margin-left: 26%;
     
 }
 
 nav > #search-bar {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
     display: inline-block;
-    margin-left: 10%;
+    margin-left: 12.6%;
+    border-radius: 1px solid rgba(148, 148, 148, 0.281);
+}
+
+nav > #search-bar > #search {
+    text-align: center;
+    font-size: 0.6em;
+    padding: 4px 21px 4px 21px;
+    color: rgba(182, 182, 182, 0.692);
+    background-color: #f0f0f0bb;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 2px;
+}
+
+#icons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 62.5%;
+}
+
+#icons > i {
+    padding: 0px 20px 0px 0px;
+    font-size: 1.2em;
 }
