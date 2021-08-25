@@ -62,3 +62,13 @@ nav > #search-bar > #search {
     transform: translateY(18%);
     cursor: pointer;
 }
+
+#stories {
+    position: relative;
+    top: 28px;
+    background-color: #ffffff;
+    height: 90px;
+    width: 470px;
+    left: 27%;
+    border: 1px solid rgba(87, 87, 87, 0.308);
+}
